@@ -1,150 +1,148 @@
-# E-Commerce Sales Analysis
+# 📊 E-Commerce Sales Analytics Dashboard
 
-## Project Overview
+An **interactive data analytics project** that analyzes e-commerce sales data to uncover business insights such as sales trends, product performance, regional distribution, and payment patterns.
 
-This project performs an **E-Commerce Sales Analysis** using **Python, SQL, NumPy, and data visualization** to extract meaningful business insights from sales data.
-The goal is to analyze sales performance, customer behavior, product demand, and payment patterns to support data-driven business decisions.
-
----
-
-## Objectives
-
-* Analyze overall sales performance
-* Identify top selling products
-* Understand customer purchasing behavior
-* Compare different payment methods (Card vs Cash)
-* Study category and regional sales performance
-* Generate visual insights for better decision making
+The project combines **Python, Pandas, and Streamlit** to build a fully interactive dashboard for exploring sales data and generating insights.
 
 ---
 
-## Dataset Description
+# 🚀 Project Overview
 
-The dataset contains transactional information from an e-commerce store.
-Key columns used in the analysis:
+This project performs an **end-to-end sales analysis** on an e-commerce dataset.
 
-* Order ID
-* Order Date
-* Customer Name
-* Region
-* City
-* Category
-* Sub-Category
-* Product Name
-* Quantity
-* Unit Price
-* Discount
-* Sales
-* Profit
-* Payment Mode
+It includes:
+
+* Data exploration using **Jupyter Notebook**
+* Data processing with **Pandas**
+* Interactive visualizations using **Plotly**
+* A **Streamlit dashboard** for real-time analytics
+
+The dashboard allows users to filter data dynamically and explore insights across regions, categories, and payment modes.
 
 ---
 
-## Tools & Technologies Used
-
-* **Python** – Data analysis and processing
-* **NumPy** – Numerical analysis and statistics
-* **Pandas** – Data manipulation
-* **SQL** – Querying and extracting insights
-* **Matplotlib** – Data visualization
-
----
-
-## Project Workflow
-
-1. **Data Collection**
-
-   * Import the dataset containing e-commerce transactions.
-
-2. **Data Cleaning**
-
-   * Handle missing values
-   * Remove duplicates
-   * Correct data types
-   * Standardize column names
-
-3. **SQL Analysis**
-
-   * Perform sales queries
-   * Extract revenue insights
-   * Analyze customer and product data
-
-4. **Python & NumPy Analysis**
-
-   * Calculate business metrics
-   * Perform statistical analysis
-   * Identify sales patterns
-
-5. **Visualization**
-
-   * Payment mode analysis
-   * Product sales comparison
-   * Category performance charts
-   * Sales distribution analysis
-
-6. **Business Insights**
-
-   * Identify high revenue products
-   * Understand customer spending patterns
-   * Detect top performing regions and categories
-
----
-
-## Key Analyses Performed
-
-* Sales distribution by **Payment Mode**
-* **Top selling products** by revenue
-* **Category-wise profit analysis**
-* **Region-wise sales performance**
-* **Customer spending behavior**
-* **Monthly sales trends**
-
----
-
-## Example Insights
-
-* A small number of products generate a large share of total revenue.
-* Digital payments contribute significantly to overall sales.
-* Certain product categories dominate total profit.
-* Sales performance varies across regions and cities.
-
----
-
-## Visualizations Included
-
-* Pie chart for **payment mode distribution**
-* Bar chart for **top selling products**
-* Category-wise profit visualization
-* Sales trend charts
-
----
-
-## Project Structure
+# 📂 Project Structure
 
 ```
-Ecommerce-Sales-Analysis
+Data Analysis Project
 │
-├── dataset
-│
-├── data_cleaning
-│
-├── sql_analysis
-│
-├── python_analysis
-│
-├── visualizations
-│
+├── app.py
+├── data.ipynb
+├── Ecommerce_Sales_Data_2024_2025.csv
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Conclusion
+# 📊 Dashboard Features
 
-This project demonstrates how **data analytics techniques** can be used to analyze business data and extract valuable insights that help improve decision making in e-commerce businesses.
+## Key Performance Indicators (KPIs)
+
+The dashboard displays important business metrics:
+
+* Total Sales
+* Total Profit
+* Total Orders
+* Average Order Value
 
 ---
 
-## Author
+## Interactive Visualizations
+
+The dashboard includes:
+
+* Monthly sales trend analysis
+* Top selling products
+* Category-wise sales distribution
+* Region-wise sales comparison
+* Payment mode distribution
+
+All charts are **interactive** and allow users to hover, zoom, and filter.
+
+---
+
+# 🔎 Dynamic Filters
+
+Users can filter data using:
+
+* Region
+* Category
+* Payment Mode
+
+If filters return no data, the dashboard automatically shows **overall insights instead of leaving the screen blank**.
+
+---
+
+# 📈 Example Insights
+
+Using this analysis we can identify:
+
+* Which products generate the most revenue
+* Which regions contribute the highest sales
+* Category performance trends
+* Customer payment preferences
+* Monthly sales patterns
+
+---
+
+# 🛠 Technologies Used
+
+* Python
+* Pandas
+* Streamlit
+* Plotly
+* Jupyter Notebook
+
+---
+
+# ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/yourusername/ecommerce-sales-dashboard.git
+```
+
+### 2️⃣ Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the dashboard
+
+```
+python -m streamlit run app.py
+```
+
+### 4️⃣ Open in browser
+
+```
+http://localhost:8501
+```
+
+---
+
+# 📷 Dashboard Preview
+
+The dashboard provides a modern layout with KPIs, charts, filters, and a data preview table.
+
+---
+
+# 📌 Future Improvements
+
+Possible improvements include:
+
+* Customer segmentation analysis
+* Sales forecasting
+* Geographic sales maps
+* Advanced business KPIs
+
+---
+
+# 👤 Author
 
 **Varunesh Jain**
+
+Data Analytics Enthusiast
